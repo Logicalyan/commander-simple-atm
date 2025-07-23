@@ -76,9 +76,4 @@ program
     await tx.history();
   });
 
-// Tampilkan bantuan jika tidak ada argumen
-if (!process.argv.slice(2).length) {
-  program.outputHelp();
-}
-
 init().then(() => program.parse(process.argv));
