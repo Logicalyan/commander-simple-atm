@@ -1,0 +1,23 @@
+{
+  "name": "atm-command",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "atm": "./atm.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node atm.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "commander": "^14.0.0",
+    "dotenv": "^17.2.0",
+    "mysql2": "^3.14.2",
+    "sequelize": "^6.37.7"
+  }
+}
